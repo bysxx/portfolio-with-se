@@ -1,24 +1,41 @@
+'use client';
+
 import Link from 'next/link';
-import { AiFillGithub } from 'react-icons/ai';
+import { usePathname } from 'next/navigation';
 
 function GlobalNav() {
+  const pathname = usePathname();
+  const paths = [
+    {
+      path: '/work',
+      name: 'Work',
+    },
+    {
+      path: '/about',
+      name: 'About',
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+    },
+  ];
+
   return (
-    <nav className="sticky top-0 grid h-16 w-full grid-cols-2 items-center justify-center bg-[hsla(0,0%,100%,.8)] px-8 py-4 shadow-bottom backdrop-blur-sm backdrop-saturate-150">
-      <div className="flex justify-start text-2xl text-gray-900">
-        <Link href="/">Next 13</Link>
+    <nav
+      className={`${
+        pathname === '/' ? 'main-text' : ''
+      } font-header sticky top-0 grid h-[62px] w-full grid-cols-2 items-center justify-center bg-[hsla(0,0%,100%,.8)] px-[178px] py-[23px] backdrop-blur-sm backdrop-saturate-150`}
+    >
+      <div className="flex justify-start">
+        <Link href="/">Seeun Park</Link>
       </div>
 
-      <div className="flex justify-end gap-x-2 text-gray-500">
-        <Link href="/example">Example</Link>
-        <a
-          className="ml-2 flex items-center gap-x-1"
-          href="https://github.com/bysxx/next-ts-template-tailwind"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <AiFillGithub />
-          <span>Source Code</span>
-        </a>
+      <div className="flex justify-end gap-x-[44px]">
+        {paths.map((p) => (
+          <Link className={`${pathname === p.path ? 'font-semibold' : ''}`} key={p.path} href={p.path}>
+            {p.name}
+          </Link>
+        ))}
       </div>
     </nav>
   );

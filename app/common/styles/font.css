@@ -1,0 +1,26 @@
+.font-header {
+  color: #454545;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.48px;
+}
+
+.font-work-item {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 17px */
+  letter-spacing: -0.51px;
+}
+
+.font-work-item-year {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.54px;
+}

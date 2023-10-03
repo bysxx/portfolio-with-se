@@ -1,12 +1,25 @@
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
-
 export default function MainPage() {
   return (
-    <main className={`${inter.className} flex min-h-screen w-full flex-col items-center p-8`}>
-      <h1 className="mb-4 text-5xl font-bold">Welcome to Next.js 13</h1>
-      <p className="text-lg">Next 13 + TypeScript + TailwindCSS</p>
+    <main className="min-h-scrren-nav w-full p-8 py-16">
+      <div className="main-layout">
+        <div className="main-text text-3xl">Hello</div>
+
+        <div className="main-animated-container">
+          {Array.from({ length: 8 }).map((_, i) => (
+            <img
+              key={i}
+              style={{
+                animationDelay: `${500 * (7 - i)}ms`,
+                left: `${i % 2 === 0 ? '0' : ''}`,
+                right: `${i % 2 === 1 ? '0' : ''}`,
+              }}
+              className="main-animated-item"
+              src={`/images/emoji/emoji-${i + 1}.png`}
+              alt=""
+            />
+          ))}
+        </div>
+      </div>
     </main>
   );
 }

@@ -3,6 +3,9 @@ module.exports = {
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './ui/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      minHeight: {
+        'scrren-nav': 'calc(100vh - 62px)',
+      },
       boxShadow: {
         bottom: '0 6px 13px 0px rgba(0, 0, 0, 0.15)',
       },

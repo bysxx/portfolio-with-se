@@ -1,5 +1,3 @@
-'use client';
-
 export default function NotFoundPage() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center p-8">
