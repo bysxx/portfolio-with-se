@@ -8,9 +8,9 @@ const stackList: { src: string; justify: 'justify-start' | 'justify-center' | 'j
   { src: 'github', justify: 'justify-center' },
   { src: 'javascript', justify: 'justify-start' },
   { src: 'typescript', justify: 'justify-end' },
-  { src: 'nextdotjs', justify: 'justify-center' },
   { src: 'react', justify: 'justify-start' },
   { src: 'tailwindcss', justify: 'justify-end' },
+  { src: 'nextdotjs', justify: 'justify-center' },
 ];
 
 export default function MainPage() {
