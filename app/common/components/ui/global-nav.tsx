@@ -27,7 +27,7 @@ function GlobalNav() {
       } font-header sticky top-0 grid h-[62px] w-full grid-cols-2 items-center justify-center bg-[hsla(0,0%,100%,.8)] px-[178px] py-[23px] backdrop-blur-sm backdrop-saturate-150 max-sm:hidden`}
     >
       <div className="flex justify-start">
-        <Link href="/">Seeun Park</Link>
+        <Link href="/">Yoonsung Baek</Link>
       </div>
 
       <div className="flex justify-end gap-x-[44px]">

@@ -1,0 +1,60 @@
+
+.main-layout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.main-animated-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  width: 500px;
+  height: 150px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  perspective: 190px;
+}
+
+@keyframes translateZAnimation {
+  0% {
+    visibility: visible;
+    transform: translateZ(-5000px);
+  }
+  100% {
+    transform: translateZ(300px);
+  }
+}
+
+.main-animated-item {
+  display: flex;
+  top: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 350px;
+  
+  animation: translateZAnimation 2s linear forwards;
+}
+
+.main-animated-item img {
+  width: 200px;
+}
+
+@keyframes mainTextAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.main-text {
+  opacity: 0;
+  animation: mainTextAnimation 1.5s 6s linear forwards;
+}
