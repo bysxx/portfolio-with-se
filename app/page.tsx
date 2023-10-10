@@ -6,10 +6,10 @@ const stackList: { src: string; justify: 'justify-start' | 'justify-center' | 'j
   { src: 'amazonaws', justify: 'justify-start' },
   { src: 'docker', justify: 'justify-end' },
   { src: 'github', justify: 'justify-center' },
+  { src: 'tailwindcss', justify: 'justify-start' },
+  { src: 'react', justify: 'justify-end' },
   { src: 'javascript', justify: 'justify-start' },
   { src: 'typescript', justify: 'justify-end' },
-  { src: 'react', justify: 'justify-start' },
-  { src: 'tailwindcss', justify: 'justify-end' },
   { src: 'nextdotjs', justify: 'justify-center' },
 ];
 
