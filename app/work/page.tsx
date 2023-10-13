@@ -55,7 +55,8 @@ const workItems: IWorkItem[] = [
 export default function WorkPage() {
   return (
     <main className="flex items-center justify-center px-[178px] py-[200px]">
-      <div className="grid grid-cols-3 gap-[50px] max-lg:grid-cols-2">
+      {/* max-lg:grid-cols-2 */}
+      <div className="grid grid-cols-3 gap-[50px]">
         <ul className="flex flex-col gap-[100px]">
           {workItems
             .filter((_, index) => index % 3 === 0)

@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body className={raleway.className}>
+      <body className={`${raleway.className} min-w-layout`}>
         <GlobalNav />
         {children}
       </body>

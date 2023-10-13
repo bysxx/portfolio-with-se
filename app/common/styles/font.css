@@ -24,3 +24,21 @@
   line-height: 100%; /* 18px */
   letter-spacing: -0.54px;
 }
+
+.font-contact-label {
+  color: #000;
+  font-size: 33.396px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.002px;
+}
+
+.font-contact-contents {
+  color: #000;
+  font-size: 33.396px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.002px;
+}

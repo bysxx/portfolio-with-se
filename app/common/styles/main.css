@@ -38,7 +38,7 @@
   position: absolute;
   width: 350px;
   
-  animation: translateZAnimation 2s linear forwards;
+  animation: translateZAnimation 2.5s linear forwards;
 }
 
 .main-animated-item img {
@@ -56,5 +56,5 @@
 
 .main-text {
   opacity: 0;
-  animation: mainTextAnimation 1.5s 6s linear forwards;
+  animation: mainTextAnimation 1.5s 7s linear forwards;
 }

@@ -3,6 +3,9 @@ module.exports = {
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './ui/**/*.{js,ts,jsx,tsx}', './app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      minWidth: {
+        layout: '1280px',
+      },
       minHeight: {
         'scrren-nav': 'calc(100vh - 62px)',
       },
