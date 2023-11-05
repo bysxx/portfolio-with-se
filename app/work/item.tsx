@@ -16,7 +16,7 @@ export default function WorkItem({ src, year, type, name, delay = 0 }: IWorkItem
   return (
     <li className="w-full">
       <div {...fadeIn} className="flex w-full flex-col gap-[13px]">
-        <img className="w-full" src={src} alt="" />
+        <img className="w-full blur-sm transition-all duration-500 hover:blur-none" src={src} alt="" />
 
         <div className="font-work-item flex w-full justify-between">
           <div>

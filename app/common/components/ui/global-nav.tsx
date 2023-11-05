@@ -7,12 +7,12 @@ function GlobalNav() {
   const pathname = usePathname();
   const paths = [
     {
-      path: '/work',
-      name: 'Work',
-    },
-    {
       path: '/about',
       name: 'About',
+    },
+    {
+      path: '/experience',
+      name: 'Experience',
     },
     {
       path: '/contact',
@@ -24,7 +24,7 @@ function GlobalNav() {
     <nav
       className={`${
         pathname === '/' ? 'main-text' : ''
-      } font-header sticky top-0 grid h-[62px] w-full grid-cols-2 items-center justify-center bg-[hsla(0,0%,100%,.8)] px-[178px] py-[23px] backdrop-blur-sm backdrop-saturate-150 max-sm:hidden`}
+      } font-header sticky top-0 z-10 grid h-[62px] w-full grid-cols-2 items-center justify-center bg-[hsla(0,0%,100%,.8)] px-[178px] py-[23px] backdrop-blur-sm backdrop-saturate-150 max-sm:hidden`}
     >
       <div className="flex justify-start">
         <Link href="/">Yoonsung Baek</Link>

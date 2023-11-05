@@ -42,3 +42,32 @@
   line-height: normal;
   letter-spacing: -1.002px;
 }
+
+.font-about-title {
+  color: #000;
+
+  font-size: 27.468px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.824px;
+}
+
+.font-about-desc-en {
+  color: #454545;
+
+  font-size: 16.45px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 22.207px; /* 135% */
+  letter-spacing: -0.493px;
+}
+
+.font-about-desc-ko {
+  color: #454545;
+  font-size: 14.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.207px; /* 150% */
+  letter-spacing: -0.444px;
+}

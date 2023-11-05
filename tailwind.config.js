@@ -6,6 +6,9 @@ module.exports = {
       minWidth: {
         layout: '1280px',
       },
+      height: {
+        'screen-nav': 'calc(100vh - 62px)',
+      },
       minHeight: {
         'scrren-nav': 'calc(100vh - 62px)',
       },

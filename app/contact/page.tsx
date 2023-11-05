@@ -5,11 +5,7 @@ export default function ContactPage() {
         <ul>
           <li className="flex gap-2">
             <div className="font-contact-label">Email.</div>
-            <div className="font-contact-contents">enya336@gmail.com</div>
-          </li>
-          <li className="flex gap-2">
-            <div className="font-contact-label">Tel.</div>
-            <div className="font-contact-contents">+82 10 4258 0021</div>
+            <div className="font-contact-contents">0415white@gmail.com</div>
           </li>
         </ul>
       </section>

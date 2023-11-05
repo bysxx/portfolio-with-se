@@ -3,52 +3,16 @@ import WorkItem from './item';
 
 const workItems: IWorkItem[] = [
   {
-    src: '/images/seeun.png',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
+    src: '/images/work/beusable.png',
+    year: '2022',
+    type: 'Fourgrit',
+    name: 'Beusable',
   },
   {
-    src: '/images/test.jpeg',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/seeun.png',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/test.jpeg',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/seeun.png',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/test.jpeg',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/seeun.png',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
-  },
-  {
-    src: '/images/test.jpeg',
-    year: '2021',
-    type: 'Artwork',
-    name: 'Seeun Pot',
+    src: '/images/work/forum.png',
+    year: '2022',
+    type: 'Fourgrit',
+    name: 'Beusable - Forum',
   },
 ];
 
