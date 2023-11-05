@@ -22,7 +22,7 @@ export default function AboutPage() {
             <img className="w-[400px]" src="/images/baek.png" alt="" />
           </figure>
 
-          <div className="flex h-full flex-col justify-between gap-4">
+          <div className="flex h-full flex-col justify-between gap-12">
             <div className="flex flex-col gap-4">
               <h2 className="font-about-title">Hello!</h2>
               <div className="flex flex-col gap-4">
