@@ -55,11 +55,11 @@ export default function SkillSection() {
       <ul className="my-8 flex w-full flex-col gap-12 px-[178px]">
         {skills.map((skill) => (
           <li key={skill.title} className="grid grid-cols-[1fr_600px] justify-between gap-10">
-            <h3 className="text-3xl font-bold">{skill.title}</h3>
+            <h3 className="font-skill-sub">{skill.title}</h3>
             <ul>
               {skill.description.map((description, index) => (
                 <li key={index}>
-                  <span dangerouslySetInnerHTML={{ __html: description }} />
+                  <span className="font-skill-desc" dangerouslySetInnerHTML={{ __html: description }} />
                 </li>
               ))}
             </ul>
