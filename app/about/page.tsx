@@ -26,15 +26,15 @@ export default function AboutPage() {
             <div className="flex flex-col gap-4">
               <h2 className="font-about-title">Hello!</h2>
               <div className="flex flex-col gap-4">
-                <ul className="font-about-desc-ko flex flex-col gap-1">
+                <ul className="font-about-desc-ko flex flex-col">
                   <li>저는 프론트엔드 중심의 3년 차 소프트웨어 엔지니어 백윤성입니다.</li>
                   <li>
                     만드는 사람이 수고로우면 쓰는 사람이 편하고, 만드는 사람이 편하면 쓰는 사람이 수고롭다. 라는
-                    마음가짐을 가지고 개발을 합니다.{' '}
+                    마음가짐을 가지고 개발을 합니다.
                   </li>
                   <li>주로 Next.js, TypeScript를 사용해 웹 어플리케이션을 설계 및 개발하고 있습니다.</li>
                 </ul>
-                <ul className="font-about-desc-en flex flex-col gap-1">
+                <ul className="font-about-desc-en flex flex-col">
                   <li>
                     I am Baek, a software engineer with 3 years of experience, primarily focusing on frontend
                     development.
