@@ -9,7 +9,7 @@ export default function ContactPage() {
           </li>
         </ul>
       </section>
-      <img src="/images/contact/subway.png" alt="subway" />
+      {/* <img src="/images/contact/subway.png" alt="subway" /> */}
     </main>
   );
 }

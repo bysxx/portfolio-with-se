@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -8,5 +11,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, Pretendard ,sans-serif;
 }
 

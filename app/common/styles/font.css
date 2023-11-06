@@ -71,3 +71,12 @@
   line-height: 22.207px; /* 150% */
   letter-spacing: -0.444px;
 }
+
+.font-skill-title {
+  color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.96px;
+}
