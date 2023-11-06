@@ -2,7 +2,7 @@
   color: #454545;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 100%; /* 16px */
   letter-spacing: -0.48px;
 }
@@ -11,7 +11,7 @@
   color: #000;
   font-size: 17px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%; /* 17px */
   letter-spacing: -0.51px;
 }
@@ -20,7 +20,7 @@
   color: #000;
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%; /* 18px */
   letter-spacing: -0.54px;
 }
@@ -29,7 +29,7 @@
   color: #000;
   font-size: 33.396px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
   letter-spacing: -1.002px;
 }
@@ -38,7 +38,7 @@
   color: #000;
   font-size: 33.396px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   letter-spacing: -1.002px;
 }
@@ -48,7 +48,7 @@
 
   font-size: 27.468px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: -0.824px;
 }
@@ -58,7 +58,7 @@
 
   font-size: 16.45px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 22.207px; /* 135% */
   letter-spacing: -0.493px;
 }
@@ -67,7 +67,7 @@
   color: #454545;
   font-size: 14.805px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 22.207px; /* 150% */
   letter-spacing: -0.444px;
 }
