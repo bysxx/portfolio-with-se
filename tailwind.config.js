@@ -10,7 +10,7 @@ module.exports = {
         'screen-nav': 'calc(100vh - 62px)',
       },
       minHeight: {
-        'scrren-nav': 'calc(100vh - 62px)',
+        'screen-nav': 'calc(100vh - 62px)',
       },
       boxShadow: {
         bottom: '0 6px 13px 0px rgba(0, 0, 0, 0.15)',

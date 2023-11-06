@@ -50,7 +50,7 @@ const skills: ISkill[] = [
 
 export default function SkillSection() {
   return (
-    <section className="flex h-screen-nav w-full snap-center flex-col items-start gap-8">
+    <section className="flex min-h-screen-nav w-full snap-center flex-col items-start gap-8">
       <div className="font-skill-title w-full bg-black px-[178px]">Skills</div>
       <ul className="flex w-full flex-col gap-12 px-[178px]">
         {skills.map((skill) => (

@@ -18,13 +18,11 @@ export default function AboutPage() {
 
   return (
     <main ref={ref} className="h-screen-nav snap-y snap-mandatory overflow-scroll">
-      <section className="flex h-screen-nav w-full snap-center items-center px-[178px]">
-        <div className="flex items-start justify-between gap-32">
-          <figure className="min-w-[300px]">
-            <img src="/images/baek.png" alt="" />
-          </figure>
+      <section className="flex min-h-screen-nav w-full snap-center items-center justify-center px-[178px] py-5">
+        <div className="flex justify-between gap-32">
+          <img className="h-[440px] w-[380px] min-w-[380px]" src="/images/baek.png" alt="" />
 
-          <div className="flex h-full flex-col justify-between gap-12">
+          <div className="flex flex-col justify-between gap-4">
             <div className="flex flex-col gap-4">
               <h2 className="font-about-title">Hello!</h2>
               <div className="flex flex-col gap-4">
