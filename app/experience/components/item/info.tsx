@@ -7,7 +7,7 @@ interface IExperienceInfo {
 
 export default function ExperienceInfo({ company, position, startDate, endDate }: IExperienceInfo) {
   return (
-    <div className="flex w-48 flex-col gap-3">
+    <div className="sticky top-16 flex  w-48 flex-col items-start justify-start gap-3">
       <h2 className="text-2xl font-bold">{company}</h2>
       <h3 className="text-sm">{position}</h3>
       <div className="flex gap-1">

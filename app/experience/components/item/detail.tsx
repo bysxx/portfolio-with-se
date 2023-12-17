@@ -12,7 +12,7 @@ function ExperienceDetailItem({ title, description }: IExperienceDetail) {
       <h3 className="text-xl font-bold">{title}</h3>
       <ul className="mt-4 flex flex-col gap-3">
         {description.map((contents, index) => (
-          <li key={index} className="before:mr-1.5 before:text-primary before:content-['•']">
+          <li key={index} className="before:text-primary before:mr-1.5 before:content-['•']">
             {contents}
           </li>
         ))}
