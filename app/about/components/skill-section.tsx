@@ -28,6 +28,7 @@ const skills: ISkill[] = [
     description: [
       '<b>Next.js 13(App Router)</b> 기반의 아키텍처 설계 경험이 있습니다.',
       'React Suspense을 포함한 <b>SSR 기술</b>에 대한 관심이 많고, 이를 통해 사용자 경험을 개선할 수 있습니다.',
+      '컨테이너 기반의 <b>반응형 웹 개발</b>에 능숙합니다.',
       'Jest를 사용해 <b>테스트 코드</b>를 작성합니다.',
     ],
   },
