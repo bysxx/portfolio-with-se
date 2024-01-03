@@ -13,6 +13,18 @@ export interface IExperience {
 
 export const experienceList: IExperience[] = [
   {
+    company: 'ULIFT',
+    position: 'Frontend Developer',
+    startDate: '2024.01',
+    endDate: '',
+    detailList: [
+      {
+        title: '학습드라마로 배우는 모바일 코딩학습 ‘코딩밸리’ 프론트엔드 개발',
+        description: ['사용된 기술: Next.js, TypeScript, tailwindcss'],
+      },
+    ],
+  },
+  {
     company: '액스(AX)',
     position: 'Frontend Developer(프리랜서)',
     startDate: '2023.09',
